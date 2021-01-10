@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Denk One", sans-serif;
+  font-family: "Denk One";
 }
 
 *, *::before, *::after {
@@ -16,13 +16,12 @@ img {
 
 body {
   background-color: #f5f2f0;
-  margin: 1rem;
+  margin: 0;
 }
 
 h1 {
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
   color: #623b0c;
-  font-size: 1.5rem;
   padding: 0 1rem;
 }
 
@@ -33,7 +32,6 @@ ol {
   justify-content: space-between;
   margin: 1rem;
   padding: 0;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -44,9 +42,11 @@ li {
   border-color: #623b0c;
   grid-gap: 1rem;
   padding: .5em .75em .6em;
+  margin: .5rem;
 }
 
 h2 {
-  font-family: 'Denk One', sans-serif;
-  font-size: 1.125rem;
+  font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
+  color: #623b0c;
 }
