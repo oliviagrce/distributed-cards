@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: Georgia, serif, 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,6 +16,7 @@ img {
 
 body {
   background-color: #f5f2f0;
+  margin: 1rem;
 }
 
 h1 {
@@ -33,6 +34,7 @@ ol {
   margin: 1rem;
   padding: 0;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 li {
@@ -40,7 +42,7 @@ li {
   border-radius: 8px;
   border-style: solid;
   border-color: #623b0c;
-  margin: .5rem;
+  grid-gap: 1rem;
   padding: .5em .75em .6em;
 }
 
